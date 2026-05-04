@@ -149,6 +149,24 @@ This should open your Salesforce org in the browser directly from Command Prompt
 
 ---
 
+## Step 10 — Set Up the VS Code Org Browser
+
+The Org Browser is built into the Salesforce Extension Pack and lets you explore your org's metadata directly inside VS Code — without touching the CLI.
+
+1. Open VS Code and make sure your class project folder is open (**File → Open Folder**)
+2. In the VS Code terminal, set your org as the default for this project:
+```
+sf config set target-org myOrg
+```
+3. Click the **Salesforce cloud icon** in the left sidebar
+4. You should see an **Org Browser** panel listing metadata types (Objects, Apex Classes, LWC, etc.)
+5. Click any type to expand it and browse what's in your org
+6. Right-click any item and choose **Retrieve This Source** to pull it into your project
+
+**Verify:** You can see metadata types listed under Org Browser in the sidebar.
+
+---
+
 ## Common Problems on Windows
 
 **"sf is not recognized" after installing:**
