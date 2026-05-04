@@ -3,6 +3,9 @@
 .sf/
 *.log
 
+# Local project config — org-specific, not shared
+sfdx-project.json
+
 # Standard org metadata — not tracked, only custom code goes in git
 force-app/main/default/layouts/
 force-app/main/default/flexipages/
