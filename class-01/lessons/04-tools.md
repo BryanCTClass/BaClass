@@ -4,7 +4,7 @@
 
 A free Chrome/Edge extension that lets you inspect and query your Salesforce org directly from the browser.
 
-**Install:** Chrome Web Store → search "Salesforce Inspector Reloaded"
+**Install:** [Salesforce Inspector Reloaded — Chrome Web Store](https://chromewebstore.google.com/detail/salesforce-inspector-relo/hpijlohoihegkfehhibggnkbjhoemldh?hl=en&pli=1)
 
 ### What You Can Do
 
