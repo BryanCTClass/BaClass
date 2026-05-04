@@ -1,0 +1,16 @@
+# Salesforce
+.sfdx/
+.sf/
+*.log
+
+# Node
+node_modules/
+.npm/
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# OS
+.DS_Store
+Thumbs.db
