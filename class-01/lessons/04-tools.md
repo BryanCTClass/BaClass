@@ -23,6 +23,23 @@ ORDER BY AnnualRevenue DESC
 LIMIT 10
 ```
 
+## VS Code Org Browser
+
+Built into the Salesforce Extension Pack. Lets you explore your org's metadata directly in VS Code without touching the CLI.
+
+**How to open:** Click the Salesforce cloud icon in the VS Code left sidebar → Org Browser
+
+### What You Can Do
+
+- **Browse metadata** — expand any type (Objects, LWC, Apex, etc.) to see what's in your org
+- **Retrieve to project** — right-click any item and choose **Retrieve This Source** to pull it into your local project
+- **No CLI required** — everything is point and click
+
+Set your default org first so the Org Browser knows what to connect to:
+```bash
+sf config set target-org myOrg
+```
+
 ## Claude Code
 
 An AI coding assistant built into VS Code. Use it to:
@@ -39,7 +56,7 @@ The command-line tool for everything Salesforce: deploying code, pulling org cha
 
 Key commands to know:
 ```bash
-sf org open --target-org CTClass               # open org in browser
-sf project deploy start --target-org CTClass   # push code to org
-sf project retrieve start --target-org CTClass # pull changes from org
+sf org open --target-org myOrg               # open org in browser
+sf project deploy start --target-org myOrg   # push code to org
+sf project retrieve start --target-org myOrg # pull changes from org
 ```
