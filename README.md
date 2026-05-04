@@ -18,10 +18,5 @@ We follow **SoundCraft Speakers**, a fictional manufacturer of high-end audio eq
 ```
 setup/        Step-by-step setup guides for Mac and Windows
 class-XX/     Per-session lesson files and agendas
-force-app/    Reference code built during class
 data/         Mock data for SoundCraft Speakers
 ```
-
-## Reference Code
-
-The `force-app/` folder contains code built live during class. It is here for reference only — do not deploy it directly. Build everything yourself in your own org so it works with your specific setup.
