@@ -22,6 +22,20 @@ Verify it worked:
 sf org display --target-org CTClass
 ```
 
+## VS Code Org Browser
+
+Once connected, set your org as the default so the Org Browser knows what to show:
+
+```bash
+sf config set target-org myOrg
+```
+
+Then in VS Code:
+1. Click the **Salesforce cloud icon** in the left sidebar
+2. Open the **Org Browser** panel
+3. Browse metadata types — Objects, LWC, Apex Classes, etc.
+4. Right-click any item and choose **Retrieve This Source** to pull it into your project
+
 ## Safety
 
 Claude Code shows you every command it wants to run before executing it. **Always read it before approving.**
