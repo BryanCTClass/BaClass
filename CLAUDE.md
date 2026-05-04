@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-This workspace is used for an intro Salesforce and Business Analysis class. It connects to a Salesforce Developer org for hands-on exploration, Lightning Web Component (LWC) development, and mock data loading.
+This workspace is used for an intro Salesforce and Business Analysis class. It connects to a Salesforce Developer org for hands-on exploration and development.
 
 ## Salesforce CLI Setup
 

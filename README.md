@@ -10,7 +10,7 @@ We follow **SoundCraft Speakers**, a fictional manufacturer of high-end audio eq
 
 | Session | Topic |
 |---------|-------|
-| [Class 01](class-01/README.md) | Setup, Salesforce Basics, User Stories, Tools, LWC Intro |
+| [Class 01](class-01/README.md) | Setup, Salesforce Basics, User Stories, Tools |
 | [Class 02](class-02/README.md) | TBD |
 
 ## Repository Structure

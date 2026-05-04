@@ -43,7 +43,6 @@ sf config set target-org myOrg
 ## Claude Code
 
 An AI coding assistant built into VS Code. Use it to:
-- Generate boilerplate LWC files
 - Explain unfamiliar Salesforce concepts
 - Debug Apex or JavaScript errors
 - Write SOQL queries
