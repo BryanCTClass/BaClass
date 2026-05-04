@@ -105,7 +105,32 @@ If you see `'sf' is not recognized`, close and reopen Command Prompt and try aga
 
 ---
 
-## Step 7 — Install Git
+## Step 7 — Install Python
+
+Python is used in some class scripts for processing data.
+
+First check if it's already installed — open Command Prompt and run:
+```
+python --version
+```
+
+- If you see `Python 3.x.x` — **skip to Step 8.**
+- If you see `Python 2.x.x` or `command not found` — install Python 3:
+  1. Go to [https://www.python.org/downloads](https://www.python.org/downloads)
+  2. Click **Download Python 3.x.x**
+  3. Open the `.exe` installer
+  4. **Important:** On the first screen, check **"Add Python to PATH"** before clicking Install
+  5. Click **Install Now**
+
+**Verify:** Open a new Command Prompt window and run:
+```
+python --version
+```
+You should see `Python 3.x.x`. If not, restart your computer and try again.
+
+---
+
+## Step 8 — Install Git
 
 1. Go to [https://git-scm.com/download/win](https://git-scm.com/download/win)
 2. The download should start automatically — open the `.exe` installer
@@ -121,7 +146,7 @@ You should see a version number. If not, restart your computer and try again.
 
 ---
 
-## Step 8 — Connect to Your Salesforce Org
+## Step 9 — Connect to Your Salesforce Org
 
 Open Command Prompt and run the following, replacing the URL with your own org's login URL:
 
@@ -139,7 +164,7 @@ You should see a table with your username and **Connected Status: Connected**.
 
 ---
 
-## Step 9 — Open the Org in the Browser
+## Step 10 — Open the Org in the Browser
 
 ```
 sf org open --target-org myOrg
@@ -149,7 +174,7 @@ This should open your Salesforce org in the browser directly from Command Prompt
 
 ---
 
-## Step 10 — Set Up the VS Code Org Browser
+## Step 11 — Set Up the VS Code Org Browser
 
 The Org Browser is built into the Salesforce Extension Pack and lets you explore your org's metadata directly inside VS Code — without touching the CLI.
 

@@ -98,7 +98,29 @@ You should see something like `@salesforce/cli/2.x.x`.
 
 ---
 
-## Step 7 — Install Git
+## Step 7 — Check Python
+
+Python is used in some class scripts for processing data.
+
+```bash
+python3 --version
+```
+
+- If you see `Python 3.x.x` — **skip to Step 8.**
+- If you see `command not found`:
+  1. Go to [https://www.python.org/downloads](https://www.python.org/downloads)
+  2. Click **Download Python 3.x.x**
+  3. Open the `.pkg` installer and follow the steps
+
+**Verify:**
+```bash
+python3 --version
+```
+You should see a version number starting with `3`.
+
+---
+
+## Step 8 — Install Git
 
 Check if Git is already installed:
 
@@ -117,7 +139,7 @@ You should see a version number.
 
 ---
 
-## Step 8 — Connect to Your Salesforce Org
+## Step 9 — Connect to Your Salesforce Org
 
 Run this command in Terminal, replacing the URL with your own org's login URL:
 
@@ -135,7 +157,7 @@ You should see a table with your username and **Connected Status: Connected**.
 
 ---
 
-## Step 9 — Open the Org in the Browser
+## Step 10 — Open the Org in the Browser
 
 ```bash
 sf org open --target-org myOrg
@@ -145,7 +167,7 @@ This should open your Salesforce org in the browser directly from Terminal.
 
 ---
 
-## Step 10 — Set Up the VS Code Org Browser
+## Step 11 — Set Up the VS Code Org Browser
 
 The Org Browser is built into the Salesforce Extension Pack and lets you explore your org's metadata directly inside VS Code — without touching the CLI.
 
